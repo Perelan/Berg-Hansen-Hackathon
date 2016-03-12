@@ -1,0 +1,168 @@
+[12-Mar-2016 05:24:52 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:24:54 America/New_York] PHP Notice:  Undefined index: FareInfo in /home/sharecre/public_html/nerdherd/php/core.php on line 115
+[12-Mar-2016 05:24:54 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/sharecre/public_html/nerdherd/php/core.php on line 51
+[12-Mar-2016 05:24:54 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:24:54 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:25:43 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:25:45 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:25:45 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:25:53 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:25:54 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:25:54 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:25:55 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:25:57 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:25:57 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:26:01 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:26:04 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:26:04 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:26:05 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:26:06 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:26:06 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:26:07 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:26:08 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:26:08 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:26:11 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:26:12 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:26:12 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:26:14 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:26:15 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:26:15 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:26:15 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:26:16 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:26:16 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:26:32 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:26:33 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:26:33 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:27:08 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:27:09 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:27:09 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:27:21 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:27:23 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:27:23 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:28:09 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:28:10 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:28:10 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:29:01 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:29:03 America/New_York] PHP Notice:  Undefined index: FareInfo in /home/sharecre/public_html/nerdherd/php/core.php on line 115
+[12-Mar-2016 05:29:03 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/sharecre/public_html/nerdherd/php/core.php on line 51
+[12-Mar-2016 05:29:03 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:29:03 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:29:11 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:29:13 America/New_York] PHP Notice:  Undefined index: FareInfo in /home/sharecre/public_html/nerdherd/php/core.php on line 115
+[12-Mar-2016 05:29:13 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/sharecre/public_html/nerdherd/php/core.php on line 51
+[12-Mar-2016 05:29:13 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:29:13 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:29:16 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:29:17 America/New_York] PHP Notice:  Undefined index: FareInfo in /home/sharecre/public_html/nerdherd/php/core.php on line 115
+[12-Mar-2016 05:29:17 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/sharecre/public_html/nerdherd/php/core.php on line 51
+[12-Mar-2016 05:29:17 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:29:17 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:29:56 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:29:57 America/New_York] PHP Notice:  Undefined index: FareInfo in /home/sharecre/public_html/nerdherd/php/core.php on line 115
+[12-Mar-2016 05:29:57 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/sharecre/public_html/nerdherd/php/core.php on line 51
+[12-Mar-2016 05:29:57 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:29:57 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:30:03 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:30:04 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:30:04 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:30:06 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:30:07 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:30:07 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:37:06 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:37:08 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:37:08 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:37:11 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:37:13 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:37:13 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:40:43 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:40:44 America/New_York] PHP Notice:  Undefined index: FareInfo in /home/sharecre/public_html/nerdherd/php/core.php on line 119
+[12-Mar-2016 05:40:44 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/sharecre/public_html/nerdherd/php/core.php on line 55
+[12-Mar-2016 05:40:44 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 127
+[12-Mar-2016 05:40:44 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 127
+[12-Mar-2016 05:40:47 America/New_York] PHP Notice:  Undefined variable: current_time in /home/sharecre/public_html/nerdherd/php/bridge.php on line 36
+[12-Mar-2016 05:40:51 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 127
+[12-Mar-2016 05:40:51 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 127
+[12-Mar-2016 05:51:21 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:51:50 America/New_York] PHP Notice:  Undefined index: OTA_VehAvailRateRS in /home/sharecre/public_html/nerdherd/php/core.php on line 42
+[12-Mar-2016 05:52:37 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:53:29 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:54:31 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:55:33 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:55:39 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:55:58 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:56:01 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 05:56:01 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 05:56:45 America/New_York] PHP Notice:  Undefined index: OTA_VehAvailRateRS in /home/sharecre/public_html/nerdherd/php/core.php on line 38
+[12-Mar-2016 05:56:46 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:56:46 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:56:48 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:56:48 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:12 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:57:13 America/New_York] PHP Notice:  Undefined index: OTA_VehAvailRateRS in /home/sharecre/public_html/nerdherd/php/core.php on line 38
+[12-Mar-2016 05:57:14 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:14 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:14 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:14 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:14 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:57:16 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:16 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:16 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:16 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:21 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:57:23 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:23 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:31 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:31 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:39 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:39 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 123
+[12-Mar-2016 05:57:52 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 127
+[12-Mar-2016 05:57:52 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 127
+[12-Mar-2016 05:57:54 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/core.php on line 127
+[12-Mar-2016 05:57:54 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/core.php on line 127
+[12-Mar-2016 05:58:58 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:59:05 America/New_York] PHP Notice:  Undefined index: OTA_VehAvailRateRS in /home/sharecre/public_html/nerdherd/php/core.php on line 39
+[12-Mar-2016 05:59:21 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 05:59:21 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 05:59:42 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 05:59:54 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:00:22 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:00:29 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:00:59 America/New_York] PHP Notice:  Undefined index: OTA_VehAvailRateRS in /home/sharecre/public_html/nerdherd/php/core.php on line 39
+[12-Mar-2016 06:01:07 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:01:32 America/New_York] PHP Notice:  Undefined index: OTA_VehAvailRateRS in /home/sharecre/public_html/nerdherd/php/core.php on line 39
+[12-Mar-2016 06:01:48 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 06:01:48 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 06:01:58 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 06:01:58 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 06:02:05 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:02:05 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 06:02:05 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 06:02:11 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:02:30 America/New_York] PHP Notice:  Undefined index: OTA_VehAvailRateRS in /home/sharecre/public_html/nerdherd/php/core.php on line 39
+[12-Mar-2016 06:02:50 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:03:10 America/New_York] PHP Notice:  Undefined index: OTA_VehAvailRateRS in /home/sharecre/public_html/nerdherd/php/core.php on line 39
+[12-Mar-2016 06:03:33 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:04:00 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:04:19 America/New_York] PHP Notice:  Undefined index: OTA_VehAvailRateRS in /home/sharecre/public_html/nerdherd/php/core.php on line 39
+[12-Mar-2016 06:04:55 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:05:12 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:05:23 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 06:05:23 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 06:05:30 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 06:05:30 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 06:05:31 America/New_York] PHP Notice:  Undefined index: OTA_VehAvailRateRS in /home/sharecre/public_html/nerdherd/php/core.php on line 39
+[12-Mar-2016 06:06:05 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:06:16 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:06:27 America/New_York] PHP Notice:  Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 06:06:27 America/New_York] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/sharecre/public_html/nerdherd/php/test.php on line 127
+[12-Mar-2016 06:06:33 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:06:54 America/New_York] PHP Notice:  Undefined index: OTA_VehAvailRateRS in /home/sharecre/public_html/nerdherd/php/core.php on line 39
+[12-Mar-2016 06:09:01 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:09:22 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:09:42 America/New_York] PHP Notice:  Undefined index: OTA_VehAvailRateRS in /home/sharecre/public_html/nerdherd/php/core.php on line 39
+[12-Mar-2016 06:10:13 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:10:29 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:10:47 America/New_York] PHP Notice:  Undefined index: OTA_VehAvailRateRS in /home/sharecre/public_html/nerdherd/php/core.php on line 39
+[12-Mar-2016 06:13:04 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:13:11 America/New_York] PHP Notice:  Undefined index: expire_ts in /home/sharecre/public_html/nerdherd/php/bridge.php on line 12
+[12-Mar-2016 06:13:29 America/New_York] PHP Notice:  Undefined index: OTA_VehAvailRateRS in /home/sharecre/public_html/nerdherd/php/core.php on line 39

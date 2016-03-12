@@ -31,6 +31,7 @@ function getAuthToken(){
 }
 
 function sendRequest($payload, $data){
+  $current_time = time();
   global $tokenKey;
   $retVal = 'null';
   if(!isset($_SESSION['expire_ts']) || $_SESSION['expire_ts'] < $current_time){

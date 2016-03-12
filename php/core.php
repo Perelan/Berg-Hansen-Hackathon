@@ -1,4 +1,5 @@
 <?php
+
 //if session is not started
 if(!session_id()){
     session_start();
@@ -120,7 +121,7 @@ function handle_client_flight($data){
 
   $session = sort_array($session);
 
-  echo json_encode($session, JSON_PRETTY_PRINT);
+  echo json_encode($session, 128);
 
 }
 

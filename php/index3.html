@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Nerdherd">
+
+  <title>Spontaneous Travels</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- Main CSS -->
+  <link href="css/travel.css" rel="stylesheet">
+  <link href="css/jqvmap.css" rel="stylesheet">
+  <link href="css/jquery-ui.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container-fluid" id="main" data-ng-controller="PostController">
+    <div id="landingPage">
+      <div class="input-group" style="width: 400px;height:50px;">
+        <span class="input-group-addon">$</span>
+        <input type="text" class="form-control" ng-model="budget" style="height:50px;" placeholder="budget">
+        <span class="input-group-btn">
+          <button class="btn btn-default" id="searchBtn" type="button" style="height:50px" ng-click="getAllPosts()">Search!</button>
+        </span>
+      </div>
+    </div>
+    <div id="HeavyWeight" hidden>
+      <ul>
+        <li id="car" class="active"><a src="#" class="fa fa-car fa-2x"></a></li>
+        <li id="destination"><a src="#" class="fa fa-globe fa-2x"></a></li>
+        <li id="calendar"><a src="#" class="fa fa-calendar fa-2x"></a></li>
+        <li id="hotel"><a src="#" class="fa fa-home fa-2x"></a></li>
+      </ul>
+      <div id="carPage">
+        <h4>Do you want to rent a car?</h4>
+        <div class="checkbox">
+          <label><input type="checkbox" ng-model="carRenting" value="">Yes!</label>
+        </div>
+        <button ng-click="getAllPosts()">Update</button>
+      </div>
+      <div id="desPage">
+        <h4>Choose destination area</h4>
+        <div id="vmap" style="width: 500px; height: 300px;"></div>
+      </div>
+      <div id="calPage">
+        <h4>Choose travel date</h4>
+        <div class="row">
+          <div class="col-lg-6">
+            <p>From:<br><input type="text" class="datepicker" ng-model="fromDate"></p>
+          </div>
+          <div class="col-lg-6">
+            <p>To:<br><input type="text" class="datepicker" ng-model="toDate"></p>
+          </div>
+        </div>
+        <button ng-click="getAllPosts()">Update</button>
+      </div>
+      <div id="hotPage">
+        <h4>Hotel</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas suscipit erat in libero accumsan ornare. Duis a metus et augue sodales scelerisque et sed sapien. Pellentesque arcu lectus, sollicitudin ut diam ultrices, blandit viverra lorem. Integer rhoncus ullamcorper tortor, id sollicitudin dolor tincidunt pellentesque.</p>
+      </div>
+
+      <!-- data from php server-->
+      <div class="row" id="PostController" ng-show="true">
+        <div class="col-lg-3 card" ng-repeat="fares in fare">
+          <div class="classContainer">
+            <h3>Destination: {{fares.DestinationLocation}}</h3>
+            <div class="row" id="infoCards">
+              <div class="col-lg-6">
+                <div ng-if="!car">
+                  <p><img src="currency.png" width="20px" height="20px"> {{fares.Fare + fares.Car}}</p>
+                </div>
+                <div ng-if="car">
+                  <p><img src="currency.png" width="20px" height="20px"> {{fares.Fare}}</p>
+                </div>
+                <!-- <p><img src="currency.png" width="20px" height="20px"> {{fares.Fare}}</p> -->
+                <p><img src="departure.png" width="20px" height="20px"> {{fares.DepartureDateTime | limitTo: 10}}</p>
+                <p><img src="arrival.png" width="20px" height="20px"> {{fares.ReturnDateTime | limitTo: 10}}</p>
+              </div>
+              <div class="col-lg-6">
+                <img src="black.png" width="100px" height="100px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- jQuery & Angular-->
+  <script src="js/jquery.js"></script>
+  <script src="js/angular.min.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Map -->
+  <script src="js/jquery.vmap.js"></script>
+  <script src="js/jquery.vmap.world.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/jquery.vmap.sampledata.js"></script>
+
+  <!-- Angular -->
+  <script>
+  var myApp = angular.module('myApp',[]);
+  //Lager klassen til kontrolleren for siden
+  myApp.controller("PostController", ['$scope', '$http', function ($scope, $http) {
+
+    $scope.found = true;
+
+    var fromDate = null;
+    var toDate = null;
+    var budget = 0;
+    var rentCar = false;
+    $scope.getAllPosts = function(){
+      //Gjør en get request til php dokumentet getPosts uten å sende med noen parametere
+      //Om den går igjennom kjør succsess
+
+      if(!angular.isUndefined($scope.fromDate)){
+        fromDate = $scope.fromDate;
+        var reformDate = fromDate.split("/");
+        fromDate = reformDate[2] + '-' + reformDate[0] + '-' + reformDate[1];
+        console.log(fromDate);
+      }
+      if(!angular.isUndefined($scope.toDate)){
+        toDate = $scope.toDate;
+        var reformedDate = toDate.split("/");
+        toDate = reformedDate[2] + '-' + reformedDate[0] + '-' + reformedDate[1];
+        console.log(toDate);
+      }
+      if(!angular.isUndefined($scope.budget)){
+        budget = $scope.budget;
+      }
+
+      if(!$scope.carRenting){
+        carRenting=true;
+      }
+
+      console.log(budget);
+      console.log($scope.fromDate);
+      console.log($scope.toDate);
+      console.log($scope.carRenting);
+
+      var parameter = {
+             "maxfare" : budget,
+             "departuredate"  : fromDate,
+             "returndate" : toDate,
+             "lengthofstay" : "2",
+             "car" : carRenting
+             };
+      $http.get("test.php", {
+        params:{
+          'data' : parameter
+        }
+
+      }).success(function(data){
+        //setter variabelen posts lik det php dokummentet returnerer
+        $scope.fare = data;
+
+        $scope.car = carRenting;
+        //Sjekker om det er noe data i det som er returnert fra php dokumentet
+        //Om ikke sett variabelen posts lik false, som da gjør at meldingen over vises
+      });
+    };
+
+  }]);
+  </script>
+
+  <!-- jQuery -->
+  <script>
+  jQuery(function($){
+    $car = $('#car');
+    $destination = $('#destination');
+    $calendar = $('#calendar');
+    $hotel = $('#hotel');
+    $people = $('#people');
+    $carPage = $('#carPage');
+    $desPage = $('#desPage');
+    $calPage = $('#calPage');
+    $hotPage = $('#hotPage');
+    $pepPage = $('#pepPage');
+
+    $('#searchBtn').click(function(){
+      $('#landingPage').hide();
+      $('#HeavyWeight').show();
+      hideAll();
+      $('#main').css('background-image','none');
+    });
+
+    $car.click(function(){
+      if($carPage.is(':visible')){
+        $carPage.fadeOut();
+      }else{
+        hideAll();
+        $carPage.fadeIn();
+      }
+    });
+
+    $destination.click(function(){
+      if($desPage.is(':visible')){
+        $desPage.fadeOut();
+      }else{
+        hideAll();
+        $desPage.fadeIn();
+      }
+    });
+
+    $calendar.click(function(){
+      if($calPage.is(':visible')){
+        $calPage.fadeOut();
+      }else{
+        hideAll();
+        $calPage.fadeIn();
+      }
+    });
+
+    $hotel.click(function(){
+      if($hotPage.is(':visible')){
+        $hotPage.fadeOut();
+      }else{
+        hideAll();
+        $hotPage.fadeIn();
+      }
+    });
+
+    $people.click(function(){
+      if($pepPage.is(':visible')){
+        $pepPage.fadeOut();
+      }else{
+        hideAll();
+        $pepPage.fadeIn();
+      }
+    });
+
+    function hideAll(){
+      $carPage.hide();
+      $desPage.hide();
+      $calPage.hide();
+      $hotPage.hide();
+      $pepPage.hide();
+    }
+
+    $( ".datepicker" ).datepicker();
+    jQuery('#vmap').vectorMap({
+      map: 'world_en',
+      backgroundColor: '#fff',
+      color: '#ffffff',
+      hoverOpacity: 0.7,
+      selectedColor: '#666666',
+      enableZoom: true,
+      showTooltip: true,
+      scaleColors: ['#C8EEFF', '#006491'],
+      values: sample_data,
+      normalizeFunction: 'polynomial'
+    });
+  });
+  </script>
+</head>
+</html>

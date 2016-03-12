@@ -1,0 +1,95 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+#main{
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: url(../landinPic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+}
+
+#landingPage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#HeavyWeight{
+  max-width: 1000px;
+  margin-top: 2px;
+  background-color: #fff;
+  width: 100%;
+}
+
+#HeavyWeight ul{
+  padding: 0px;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+#HeavyWeight ul>li{
+  display: inline;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border: 1px solid #ccc;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#HeavyWeight ul>li>a:hover{
+  text-decoration: none;
+}
+
+#carPage,
+#calPage,
+#desPage,
+#hotPage,
+#pepPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#PostController{
+  width: 100%;
+  padding-left: 28px;
+}
+
+.classContainer{
+  width: 100%;
+  padding-left: 20px;
+}
+
+.card{
+  margin: 2px;
+  padding: 0px;
+  min-width: 320px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fa{
+  color: #000;
+}
+
+.active{
+  background-color: #03a9f4; 
+}

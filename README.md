@@ -13,6 +13,11 @@ http://sharecrew.net/nerdherd/php/core.php?data={"maxfare":"300","departuredate"
 - lengthofstay => antall dager du vil reise (må initialiseres)
 - car => om du ønsker bil eller ikke (må initialiseres true:false)
 
+#for å kjøre top dst i usa
+http://sharecrew.net/nerdherd/php/top_dst.php
+
+den spytter ut destinasjoner som er mest brukt i de siste 2 ukene i usa. Gir også destnasjonen en rank ut ifra mest brukt.
+
 #for å kjøre web frontend (valg av bil fungerer ikke, tar for lang tid å laste inn)
 http://sharecrew.net/nerdherd/php/
 

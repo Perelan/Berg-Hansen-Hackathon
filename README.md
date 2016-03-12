@@ -7,11 +7,11 @@ Innholdet i denne katalogen inkluderer kildefilene til vårt web-prosjekt. App-p
 #for å kjøre backend algoritme uten fronten, output : json
 http://sharecrew.net/nerdherd/php/core.php?data={"maxfare":"300","departuredate":"null","returndate":"null","lengthofstay":"2","car":"false"}
 
-maxfare => maks pris for reise (må initialiseres)
-departuredate => dra dato
-returndate => hjem dato (hvis departuredate, så må også denne initialiseres)
-lengthofstay => antall dager du vil reise (må initialiseres)
-car => om du ønsker bil eller ikke (må initialiseres true:false)
+-maxfare => maks pris for reise (må initialiseres)
+-departuredate => dra dato
+-returndate => hjem dato (hvis departuredate, så må også denne initialiseres)
+-lengthofstay => antall dager du vil reise (må initialiseres)
+-car => om du ønsker bil eller ikke (må initialiseres true:false)
 
 #for å kjøre web frontend (valg av bil fungerer ikke, tar for lang tid å laste inn)
 http://sharecrew.net/nerdherd/php/
